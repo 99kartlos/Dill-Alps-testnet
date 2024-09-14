@@ -27,7 +27,7 @@ Explorer URL | https://andes.dill.xyz/
 
 - İlk olarak terminali açın. Daha sonra aşağıdaki komutu çalıştırın.
 
-```Assembly
+```Sieve
 curl -sO https://raw.githubusercontent.com/DillLabs/launch-dill-node/main/dill.sh  && chmod +x dill.sh && ./dill.sh
 ```
 - Kurulumu başlattıktan sonra ```Please choose an option for your purpose [1, Launch a new dill node, 2, Add a validator to existing node]``` seçimi gelecek karşınıza. Buraya 1 yazıp, entere basın. 

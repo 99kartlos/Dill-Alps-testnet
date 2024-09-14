@@ -79,16 +79,16 @@ curl -sO https://raw.githubusercontent.com/DillLabs/launch-dill-node/main/dill.s
 ## Önemli Komutlar
 
 - Eğer Dill dizininde değilseniz, bu komutla Dill dizinine geçebilirsiniz. (Komutları "dill" dizininde çalıştırmanız gerekiyor)
-```
+```ABNF
 cd dill 
 ```
 
 - Node'un çalışıp çalışmadığını kontrol etmek için
-```
+```ABNF
 ./health_check.sh -v
 ```
 
 - Node sync olup olmadığını kontrol etmek için. Eğer bunun gibi bir çıktı alıyorsanız node sync olmuş demektir. ({"head_slot":"173420","sync_distance":"0","is_syncing":false,"is_optimistic":false,"el_offline":false}}
-```
+```ABNF
 curl -s localhost:3500/eth/v1/node/syncing
 ```

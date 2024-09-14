@@ -84,7 +84,7 @@ cd dill
 ```
 
 - Node'un çalışıp çalışmadığını kontrol etmek için
-```ABNF
+```Processing
 ./health_check.sh -v
 ```
 

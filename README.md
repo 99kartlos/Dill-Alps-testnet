@@ -25,26 +25,32 @@ Explorer URL | https://andes.dill.xyz/
 
 ## Kurulum Talimatları
 
-- İlk olarak terminali açın. Daha sonra aşağıdaki komutu çalıştırın.
-
+1- Aşağıda ki komutu çalıştırın.
 ```ABNF
 curl -sO https://raw.githubusercontent.com/DillLabs/launch-dill-node/main/dill.sh  && chmod +x dill.sh && ./dill.sh
 ```
-- Kurulumu başlattıktan sonra ```Please choose an option for your purpose [1, Launch a new dill node, 2, Add a validator to existing node]``` seçimi gelecek karşınıza. Buraya 1 yazıp, entere basın. 
-- Gerekli dosyaları indirmeye başlayacak. ```Step 1 Completed. Press any key to continue...``` çıktsını aldıktan sonra herhangi bir tuşa basın ve devam edin.
-- Yeni bir mnemonic oluşturacaksınız 1'i seçin ya da mevcut Mnemonic'lerinizi kullanacaksınız 2'yi seçerek enter'a basın. Kelimelerinizi kaydetmeyi unutmayın. Ayrıca oluşan kelimelerini ```dill/validator_keys/mnemonic-xxxxxx.txt``` dizininde bu dosyada görebilirsiniz.
+2- Kurulumu başlattıktan sonra ```Please choose an option for your purpose [1, Launch a new dill node, 2, Add a validator to existing node]``` seçimi gelecek karşınıza. Buraya 1 yazıp, entere basın. 
+
+3- Gerekli dosyaları indirmeye başlayacak. ```Step 1 Completed. Press any key to continue...``` çıktsını aldıktan sonra herhangi bir tuşa basın ve devam edin.
+
+4- Kurulum sırasında Mnemonic kısmına geldik. Eğer yeni Mnemonic oluşturacaksınız 1'i seçin ya da Andres testnetinden kalma Mnemonic'lerinizi kullanacaksınız 2'yi seçerek enter'a basın. Kelimelerinizi kaydetmeyi unutmayın. Ayrıca oluşan kelimelerini ```dill/validator_keys/mnemonic-xxxxxx.txt``` dizininde bu dosyada görebilirsiniz.
+
 > [!CAUTION]
 > Ayrıca ```dill/validator_keys/mnemonic-xxxxxx.txt```dosyasını yedekleyemeyi kesinlikle unutmayın. Eğer node'nuzu başka bir sunucuya taşımak isterseniz bu lazım olacak.
 
-- Kelimeleriniz oluştuktan sonra random olarak Validatör Keystore şifrenizi oluşturulacak. Bunu da kaydedin. Gene aynı şekilde random oluşan şifrenizi ```dill/validator_keys/keystore_password.txt``` dosyasında görebilirsiniz. Tekrar herhangi bir tuşa basın.
-- Full validatör ve light validatör kurulumunu için token stake miktarları değişiktir. Bunun için karşınıza şöyle bir seçenecek gelecek, ```Please choose an option for deposit token amount [1, 3600, 2, 36000]``` Siz ligth validatör için seçildiyseniz 1, eğer full validatör için seçildiyseniz 2 yazıp entere basın.
-- Sonra ki adımda ```Please enter your withdrawal address:``` seçeneği gelecek. Burada Dill Discord'unda ki faucette hangi metamask adresinize tokenleri talep ettiyseniz o adresinizi 2 kere girin.
-- ```Step 2 Completed. Press any key to continue...``` çıktısını alınca tekrar herhangi bir tuşa basın ve kuruluma devam edin.
-- En sonda ```node running, congratulations``` çıktısı validator_pubkeyinizi ve alacaksınız ve kurulum tamamlanacak.
+5- Mnemonic'i oluştuktan sonra random olarak Validatör Keystore şifrenizi oluşturulacak. Bunu da kaydedin. Yine aynı şekilde random oluşan şifrenizi ```dill/validator_keys/keystore_password.txt``` dosyasında görebilirsiniz. Tekrar herhangi bir tuşa basın.
+
+6- Full validatör ve light validatör kurulumunu için token stake miktarları değişiktir. Bunun için karşınıza şöyle bir seçenecek gelecek, ```Please choose an option for deposit token amount [1, 3600, 2, 36000]``` Siz ligth validatör için seçildiyseniz 1, eğer full validatör için seçildiyseniz 2 yazıp entere basın.
+
+7- Bu adımda ```Please enter your withdrawal address:``` seçeneği gelecek. Burada Dill Discord'unda ki faucette hangi metamask adresinize tokenleri talep ettiyseniz o adresinizi 2 kere girin.
+
+8- ```Step 2 Completed. Press any key to continue...``` çıktısını alınca tekrar herhangi bir tuşa basın ve kuruluma devam edin.
+
+9- En sonda kurulum sorunsuz tamamlandığı zaman ```node running, congratulations``` çıktısı verecek. Ayrıca çıktı da validator_pubkeyinizide verecek.
 
 ## Staking
 
-Not: Node'unuz sync olduktan sonra staking işlemlerini yapmanız tavsiye edilir. Sync kodunu reponun en altına ekledim. Kontrol edebilirsiniz.
+> [!CAUTION] Node'unuz sync olduktan sonra staking işlemlerini yapmanız tavsiye edilir. Sync kodunu reponun en altına ekledim. Kontrol edebilirsiniz.
 
   - Öncelikle, Alps kanalından faucet'ten token talep edin. Node'da oluşturduğunuzdan farklı bir cüzdan kullanın ve faucet'i yalnızca bir kez alabileceğinizi unutmayın ($request xxxxx).
   - https://staking.dill.xyz/ adresini ziyaret edin.

@@ -42,13 +42,13 @@ Explorer URL | https://andes.dill.xyz/
 curl -sO https://raw.githubusercontent.com/DillLabs/launch-dill-node/main/dill.sh  && chmod +x dill.sh && ./dill.sh
 ```
 - Kurulumu başlattıktan sonra ```Please choose an option for your purpose [1, Launch a new dill node, 2, Add a validator to existing node]``` seçimi gelecek karşınıza. Buraya 1 yazıp, entere basın. 
-- Gerekli dosyaları indirmeye başlayacak. "Step 1 Completed. Press any key to continue..." çıktsını aldıktan sonra herhangi bir tuşa basın ve devam edin.
-- Yeni bir mnemonic oluşturacaksınız 1'i seçin ya da mevcut Mnemonic'lerinizi kullanacaksınız 2'yi seçerek enter'a basın. Kelimelerinizi kaydetmeyi unutmayın. Ayrıca oluşan kelimelerini dill/validator_keys/mnemonic-xxxxxx.txt dizininde bu dosyada görebilirsiniz. (bu dosyayı yedekleyemeyi kesinlikle unutmayın. Eğer node'nuzu başka bir sunucuya taşımak isterseniz bu lazım olacak.)
-- Kelimeleriniz oluştuktan sonra random olarak Validator Keystore şifrenizi oluşturulacak. Bunu da kaydedin. Gene aynı şekilde random oluşan şifrenizi dill/validator_keys/keystore_password.txt dosyasında görebilirsiniz. Tekrar herhangi bir tuşa basın.
-- Full validator ve light validator kurulumunu için token stake miktarları değişiktir. Bunun için karşınıza şöyle bir seçenecek gelecek, "Please choose an option for deposit token amount [1, 3600, 2, 36000]" Siz ligth validator için seçildiyseniz 1, eğer full validator için seçildiyseniz 2 yazıp entere basın.
-- Sonra ki adımda "Please enter your withdrawal address:" seçeneği gelecek. Burada Dill Discord'unda ki faucette hangi metamask adresinize tokenleri talep ettiyseniz o adresinizi 2 kere girin.
-- "Step 2 Completed. Press any key to continue..." çıktısını alınca tekrar herhangi bir tuşa basın ve kuruluma devam edin.
-- En sonda "node running, congratulations" çıktısı validator_pubkeyinizi ve alacaksınız ve kurulum tamamlanacak.
+- Gerekli dosyaları indirmeye başlayacak. ```Step 1 Completed. Press any key to continue...``` çıktsını aldıktan sonra herhangi bir tuşa basın ve devam edin.
+- Yeni bir mnemonic oluşturacaksınız 1'i seçin ya da mevcut Mnemonic'lerinizi kullanacaksınız 2'yi seçerek enter'a basın. Kelimelerinizi kaydetmeyi unutmayın. Ayrıca oluşan kelimelerini ```dill/validator_keys/mnemonic-xxxxxx.txt``` dizininde bu dosyada görebilirsiniz. (bu dosyayı yedekleyemeyi kesinlikle unutmayın. Eğer node'nuzu başka bir sunucuya taşımak isterseniz bu lazım olacak.)
+- Kelimeleriniz oluştuktan sonra random olarak Validator Keystore şifrenizi oluşturulacak. Bunu da kaydedin. Gene aynı şekilde random oluşan şifrenizi ```dill/validator_keys/keystore_password.txt``` dosyasında görebilirsiniz. Tekrar herhangi bir tuşa basın.
+- Full validator ve light validator kurulumunu için token stake miktarları değişiktir. Bunun için karşınıza şöyle bir seçenecek gelecek, ```Please choose an option for deposit token amount [1, 3600, 2, 36000]``` Siz ligth validator için seçildiyseniz 1, eğer full validator için seçildiyseniz 2 yazıp entere basın.
+- Sonra ki adımda ```Please enter your withdrawal address:``` seçeneği gelecek. Burada Dill Discord'unda ki faucette hangi metamask adresinize tokenleri talep ettiyseniz o adresinizi 2 kere girin.
+- ```Step 2 Completed. Press any key to continue...``` çıktısını alınca tekrar herhangi bir tuşa basın ve kuruluma devam edin.
+- En sonda ```node running, congratulations``` çıktısı validator_pubkeyinizi ve alacaksınız ve kurulum tamamlanacak.
 
 ## Staking
 
@@ -59,7 +59,7 @@ Not: Node'unuz sync olduktan sonra staking işlemlerini yapmanız tavsiye edilir
 
 ![image](https://github.com/user-attachments/assets/3c24ea5d-c728-4ee7-87f3-b2a42abd5dd5)
 
-- Bu siteye deposit_data-xxxxx.json dosyanızı yükleyeceksiniz. Bu dosyayı sunucunuzun içinde /dill/validator_keys dizininden bulup alabilirsiniz.(WinSCP, Mobaxterm gibi uygulamarı kullanabilirsiniz.)
+- Bu siteye deposit_data-xxxxx.json dosyanızı yükleyeceksiniz. Bu dosyayı sunucunuzun içinde ```/dill/validator_keys``` dizininden bulup alabilirsiniz.(WinSCP, Mobaxterm gibi uygulamarı kullanabilirsiniz.)
 - Deposit_data-xxxx.json dosyasını siteye yükledikten sonra MetaMask'a Bağlan'a tıklayın, yeterli test tokeniniz olduğundan emin olun (>3600 DILL)
 
  ![image](https://github.com/user-attachments/assets/f8238c5a-b216-476c-a5a3-18fc919211b6)

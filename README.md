@@ -9,7 +9,7 @@
 İşlemci | 2 Cores | 4 Cores
 İşletim Sistem Mimarisi | x86-64 (x64, x86_64, AMD64, ve Intel 64) | x86-64 (x64, x86_64, AMD64, ve Intel 64)
 Ram | 2 GB | 8 GB
-İşletim Sistemi | Ubuntu 22.04.2 LTS or higher versions (x86-64) | Ubuntu 22.04.2 LTS or higher versions (x86-64)
+İşletim Sistemi | Ubuntu 22.04.2 LTS ya da daha yüksek versiyon (x86-64) | Ubuntu 22.04.2 LTS ya da daha yüksek versiyon (x86-64)
 Disk Boyutu | 20 GB | 256 GB
 İnternet Bant Genişliği | 1MB/s | 64Mb/s
 

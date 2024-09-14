@@ -42,7 +42,7 @@ curl -sO https://raw.githubusercontent.com/DillLabs/launch-dill-node/main/dill.s
 
 6- Full validatör ve light validatör kurulumunu için token stake miktarları değişiktir. Bunun için karşınıza şöyle bir seçenecek gelecek, ```Please choose an option for deposit token amount [1, 3600, 2, 36000]``` Siz ligth validatör için seçildiyseniz 1, eğer full validatör için seçildiyseniz 2 yazıp entere basın.
 
-7- Bu adımda ```Please enter your withdrawal address:``` seçeneği gelecek. Burada Dill Discord'unda ki faucette hangi metamask adresinize tokenleri talep ettiyseniz o adresinizi 2 kere girin.
+7- Bu adımda ```Please enter your withdrawal address:``` seçeneği gelecek. Dill Discord'unda ki faucetten hangi adresinize tokenleri talep ettiyseniz o adresinizi 2 kere girin.
 
 8- ```Step 2 Completed. Press any key to continue...``` çıktısını alınca tekrar herhangi bir tuşa basın ve kuruluma devam edin.
 
@@ -56,7 +56,7 @@ curl -sO https://raw.githubusercontent.com/DillLabs/launch-dill-node/main/dill.s
 2- https://staking.dill.xyz/ adresini ziyaret edin.
 
 > [!CAUTION]
-> Düğümünüz (Node) senkronize olduktan sonra staking işlemlerini yapmanız tavsiye edilir. Düğümün (Node) senkronize durumunu kontrol etmek için reponun en altına komutları kullanın lütfen.
+> Düğümünüz (Node) senkronize olduktan sonra staking işlemlerini yapmanız tavsiye edilir. Düğümün (Node) senkronize durumunu kontrol etmek için reponun en altında ki komutları kullanın lütfen.
 > Faucet'ten yalnızca bir kez token talep edebileceğinizi unutmayın!
 
 ![image](https://github.com/user-attachments/assets/3c24ea5d-c728-4ee7-87f3-b2a42abd5dd5)
@@ -67,11 +67,11 @@ curl -sO https://raw.githubusercontent.com/DillLabs/launch-dill-node/main/dill.s
 
  ![image](https://github.com/user-attachments/assets/f8238c5a-b216-476c-a5a3-18fc919211b6)
 
-5- Cüzdanı bağladıktan sonra Continue'ya basarak devam edin. Ardından ```Confirm Deposit```'e basarak depositini gerçekleştirin.
+5- Cüzdanı bağladıktan sonra Continue'ya basarak devam edin. Ardından ```Confirm Deposit```'e basarak tokenleri yatırın.
 
 ![Ekran görüntüsü 2024-09-14 075934](https://github.com/user-attachments/assets/8f9bcb6a-ddfd-41cf-b202-fc99e5bba489)
 
-6- Staking sürecini tamamladıktan sonra, validator public anahtarınızı kullanarak sayfada validatör bilgilerinizi arayabilirsiniz. Görünmesi 0,5-1 saat sürebilir.
+6- Staking sürecini tamamladıktan sonra, validator public anahtarınızı kullanarak sayfada validatör bilgilerinizi arayabilirsiniz. Validatörünüzün görünmesi 30 dk. ile 1 saat arasında sürebilir.
 
 ![Ekran görüntüsü 2024-09-14 080323](https://github.com/user-attachments/assets/1539f0ca-324c-4188-97ea-a279b50d28ab)
 

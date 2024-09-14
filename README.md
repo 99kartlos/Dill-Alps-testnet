@@ -1,7 +1,7 @@
 ![image](https://github.com/user-attachments/assets/94e0ba96-7db4-44db-88b3-577651358207)
 
 ------
-# Light Validatör Donanım Gereksinimleri
+# Light Validator Donanım Gereksinimleri
 | Donanım | Gereksinimleri |
 | ------------- | ---------------- |
 Cpu | 2 Cores

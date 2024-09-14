@@ -33,10 +33,10 @@ curl -sO https://raw.githubusercontent.com/DillLabs/launch-dill-node/main/dill.s
 
 3- Gerekli dosyaları indirmeye başlayacak. ```Step 1 Completed. Press any key to continue...``` çıktsını aldıktan sonra herhangi bir tuşa basın ve devam edin.
 
-4- Kurulum sırasında Mnemonic kısmına geldik. Eğer yeni Mnemonic oluşturacaksınız 1'i seçin ya da Andres testnetinden kalma Mnemonic'lerinizi kullanacaksınız 2'yi seçerek enter'a basın. Kelimelerinizi kaydetmeyi unutmayın. Ayrıca oluşan kelimelerini ```dill/validator_keys/mnemonic-xxxxxx.txt``` dizininde bu dosyada görebilirsiniz.
+4- Kurulum sırasında Mnemonic kısmına geldik. Eğer yeni Mnemonic oluşturacaksınız 1'i seçin ya da Andres testnetinden kalma Mnemoniclerinizi kullanacaksınız 2'yi seçerek enter'a basın. Kelimelerinizi kaydetmeyi unutmayın. Ayrıca oluşan Mnemonicleriniz ```dill/validator_keys/mnemonic-xxxxxx.txt``` dizininde bu dosyada görebilirsiniz.
 
 > [!CAUTION]
-> Ayrıca ```dill/validator_keys/mnemonic-xxxxxx.txt```dosyasını yedekleyemeyi kesinlikle unutmayın. Eğer node'nuzu başka bir sunucuya taşımak isterseniz bu lazım olacak.
+> ```dill/validator_keys/mnemonic-xxxxxx.txt```dosyasını yedekleyemeyi kesinlikle unutmayın. Eğer node'nuzu başka bir sunucuya taşımak isterseniz bu lazım olacak.
 
 5- Mnemonic'i oluştuktan sonra random olarak Validatör Keystore şifrenizi oluşturulacak. Bunu da kaydedin. Yine aynı şekilde random oluşan şifrenizi ```dill/validator_keys/keystore_password.txt``` dosyasında görebilirsiniz. Tekrar herhangi bir tuşa basın.
 
@@ -48,25 +48,30 @@ curl -sO https://raw.githubusercontent.com/DillLabs/launch-dill-node/main/dill.s
 
 9- En sonda kurulum sorunsuz tamamlandığı zaman ```node running, congratulations``` çıktısı verecek. Ayrıca çıktı da validator_pubkeyinizide verecek.
 
+
 ## Staking
 
-> [!CAUTION] Node'unuz sync olduktan sonra staking işlemlerini yapmanız tavsiye edilir. Sync kodunu reponun en altına ekledim. Kontrol edebilirsiniz.
+1- Öncelikle, Alps kanalında ki faucet botundan token talep edin ($request cüzdanadresinz). Düğümünüzde (Node) oluşturduğunuzdan cüzdandan farklı bir cüzdan kullanın.
 
-  - Öncelikle, Alps kanalından faucet'ten token talep edin. Node'da oluşturduğunuzdan farklı bir cüzdan kullanın ve faucet'i yalnızca bir kez alabileceğinizi unutmayın ($request xxxxx).
-  - https://staking.dill.xyz/ adresini ziyaret edin.
+2- https://staking.dill.xyz/ adresini ziyaret edin.
+
+> [!CAUTION]
+> Düğümünüz (Node) senkronize olduktan sonra staking işlemlerini yapmanız tavsiye edilir. Düğümün (Node) senkronize durumunu kontrol etmek için reponun en altına komutları kullanın lütfen.
+> Faucet'ten yalnızca bir kez token talep edebileceğinizi unutmayın!
 
 ![image](https://github.com/user-attachments/assets/3c24ea5d-c728-4ee7-87f3-b2a42abd5dd5)
 
-- Bu siteye ```deposit_data-xxxxx.json``` dosyanızı yükleyeceksiniz. Bu dosyayı sunucunuzun içinde ```/dill/validator_keys``` dizininden bulup alabilirsiniz.(WinSCP, Mobaxterm gibi uygulamarı kullanabilirsiniz.)
-- ```Deposit_data-xxxx.json``` dosyasını siteye yükledikten sonra MetaMask'a Bağlan'a tıklayın, yeterli test tokeniniz olduğundan emin olun (>3600 DILL)
+3- Bu siteye ```deposit_data-xxxxx.json``` dosyanızı yükleyeceksiniz. Bu dosyayı sunucunuzun içinde ```/dill/validator_keys``` dizininden bulup alabilirsiniz.(WinSCP, Mobaxterm gibi uygulamarı kullanabilirsiniz.)
+
+4- ```Deposit_data-xxxx.json``` dosyasını siteye yükledikten sonra MetaMask'a Bağlana tıklayın, yeterli test tokeniniz olduğundan emin olun (>3600 DILL)
 
  ![image](https://github.com/user-attachments/assets/f8238c5a-b216-476c-a5a3-18fc919211b6)
 
-- Cüzdanı bağladıktan sonra Continue'ya basarak devam edin. Ardından ```Confirm Deposit```'e basarak depositini gerçekleştirin.
+5- Cüzdanı bağladıktan sonra Continue'ya basarak devam edin. Ardından ```Confirm Deposit```'e basarak depositini gerçekleştirin.
 
 ![Ekran görüntüsü 2024-09-14 075934](https://github.com/user-attachments/assets/8f9bcb6a-ddfd-41cf-b202-fc99e5bba489)
 
-- Staking sürecini tamamladıktan sonra, validator public anahtarınızı kullanarak sayfada validatör bilgilerinizi arayabilirsiniz. Görünmesi 0,5-1 saat sürebilir.
+6- Staking sürecini tamamladıktan sonra, validator public anahtarınızı kullanarak sayfada validatör bilgilerinizi arayabilirsiniz. Görünmesi 0,5-1 saat sürebilir.
 
 ![Ekran görüntüsü 2024-09-14 080323](https://github.com/user-attachments/assets/1539f0ca-324c-4188-97ea-a279b50d28ab)
 

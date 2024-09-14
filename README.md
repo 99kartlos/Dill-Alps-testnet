@@ -3,8 +3,6 @@
 
 ------
 
-<b>Dill Alps testnet düğümünü (Node) çalıştırmak için minumum donanım gereksinimleri.</b>
-
 # Validatör Donanım Gereksinimleri
 | Donanım | Light Validatör | Full Validatör |
 | ------------- | ---------------- | ---------------- |

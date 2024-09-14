@@ -60,7 +60,7 @@ Not: Node'unuz sync olduktan sonra staking işlemlerini yapmanız tavsiye edilir
 
 - Cüzdanı bağladıktan sonra Continue'ya basarak devam edin. Ardından Confirm deposit'e basarak depositini gerçekleştirin.
 
-![confrm](https://github.com/user-attachments/assets/5b8c045f-6cf8-49e8-a096-d047e940e71f)
+![image](https://github.com/user-attachments/assets/5b8c045f-6cf8-49e8-a096-d047e940e71f)
 
 
 

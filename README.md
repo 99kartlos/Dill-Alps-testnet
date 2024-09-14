@@ -13,7 +13,7 @@ Ram | 2 GB | 8 GB
 Disk Boyutu | 20 GB | 256 GB
 İnternet Bant Genişliği | 1MB/s | 64Mb/s
 
-# Dill Public Testnet (Alps Testnet) Bilgileri
+# Dill Public Testnet (Alps Testnet) Ağ Bilgileri
 | Network Name     | Dill Testnet Alps |
 | ------------- | ---------------- |
 Ağ Adı | Alps Testnet

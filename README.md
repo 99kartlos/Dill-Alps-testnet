@@ -36,12 +36,12 @@ Explorer URL | https://andes.dill.xyz/
 
 ## Kurulum Talimatları
 
-- İlk olarak terminali açın. Daha sonra aşağıdaki kodu çalıştırın. Dosyaların inmesini bekleyin.
+- İlk olarak terminali açın. Daha sonra aşağıdaki komutu çalıştırın.
 
 ```
 curl -sO https://raw.githubusercontent.com/DillLabs/launch-dill-node/main/dill.sh  && chmod +x dill.sh && ./dill.sh
 ```
-- Kurulumu başlattıktan sonra "Please choose an option for your purpose [1, Launch a new dill node, 2, Add a validator to existing node]" seçimi gelecek karşınıza. Buraya 1 yazıp, entere basın. 
+- Kurulumu başlattıktan sonra ```Please choose an option for your purpose [1, Launch a new dill node, 2, Add a validator to existing node]``` seçimi gelecek karşınıza. Buraya 1 yazıp, entere basın. 
 - Gerekli dosyaları indirmeye başlayacak. "Step 1 Completed. Press any key to continue..." çıktsını aldıktan sonra herhangi bir tuşa basın ve devam edin.
 - Yeni bir mnemonic oluşturacaksınız 1'i seçin ya da mevcut Mnemonic'lerinizi kullanacaksınız 2'yi seçerek enter'a basın. Kelimelerinizi kaydetmeyi unutmayın. Ayrıca oluşan kelimelerini dill/validator_keys/mnemonic-xxxxxx.txt dizininde bu dosyada görebilirsiniz. (bu dosyayı yedekleyemeyi kesinlikle unutmayın. Eğer node'nuzu başka bir sunucuya taşımak isterseniz bu lazım olacak.)
 - Kelimeleriniz oluştuktan sonra random olarak Validator Keystore şifrenizi oluşturulacak. Bunu da kaydedin. Gene aynı şekilde random oluşan şifrenizi dill/validator_keys/keystore_password.txt dosyasında görebilirsiniz. Tekrar herhangi bir tuşa basın.

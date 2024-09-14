@@ -6,12 +6,12 @@
 # Validatör Donanım Gereksinimleri
 | Donanım | Light Validatör | Full Validatör |
 | ------------- | ---------------- | ---------------- |
-Cpu | 2 Cores | 4 Cores
-Architecture | x86-64 (x64, x86_64, AMD64, ve Intel 64) | x86-64 (x64, x86_64, AMD64, ve Intel 64)
-Memory | 2 GB | 8 GB
-Operating System | Ubuntu 22.04.2 LTS or higher versions (x86-64) | Ubuntu 22.04.2 LTS or higher versions (x86-64)
-Storage | 20 GB | 256 GB
-Network Bandwidth | 1MB/s | 64Mb/s
+İşlemci | 2 Cores | 4 Cores
+İşletim Sistem Mimarisi | x86-64 (x64, x86_64, AMD64, ve Intel 64) | x86-64 (x64, x86_64, AMD64, ve Intel 64)
+Ram | 2 GB | 8 GB
+İşletim Sistemi | Ubuntu 22.04.2 LTS or higher versions (x86-64) | Ubuntu 22.04.2 LTS or higher versions (x86-64)
+Disk Boyutu | 20 GB | 256 GB
+İnternet Bant Genişliği | 1MB/s | 64Mb/s
 
 # Dill Public Testnet (Alps Testnet) Bilgileri
 | Network Name     | Dill Testnet Alps |

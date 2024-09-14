@@ -1,6 +1,22 @@
 ![image](https://github.com/user-attachments/assets/94e0ba96-7db4-44db-88b3-577651358207)
 
 ------
+
+<b> Dill Alps testnet düğümünü (Node) çalıştırmak için minumum donanım gereksinimleri </b>
+
+| Donanım | Gereksinim |
+| ------------- | ------------- | ---------------- |
+| Cpu | 8-core Cpu
+Mimari | x86-64 (x64, x86_64, AMD64, ve Intel 64)
+Ram | 16 GB
+İşletim Sistemi | Ubuntu 22.04.2 LTS ya da üst sürümler (x86-64)
+Depolama | 400 GB
+Ağ Bant Genişliği | 40 Mbps
+TCP bağlantı noktaları | 8545, 8546, 1111 ve 1888 (Önerilen)
+
+
+
+
 # Light Validator Donanım Gereksinimleri
 | Donanım | Gereksinimleri |
 | ------------- | ---------------- |
@@ -38,9 +54,12 @@ Explorer URL | https://andes.dill.xyz/
 ```
 curl -sO https://raw.githubusercontent.com/DillLabs/launch-dill-node/main/dill.sh  && chmod +x dill.sh && ./dill.sh
 ```
-- Dosyalar indikten sonra "Step 1 Completed. Press any key to continue..." çıktsını aldıktan sonra herhangi bir tuşa basın ve devam edin.
-- Yeni bir mnemonic oluşturacaksınız 1'i seçin yada mevcut mnemonic'lerinizi kullanacaksınız 2'yi seçerek enter'a basın. Kelimelerinizi kaydetmeyi unutmayın. Ayrıca oluşan kelimelerini dill/validator_keys/mnemonic-xxxxxx.txt dizininde bu dosyada görebilirsiniz. (bu dosyayı yedekleyemeyi kesinlikle unutmayın. Eğer node'nuzu başka bir sunucuya taşımak isterseniz bu lazım olacak.)
-- Kelimeleriniz oluştuktan sonra random olarak Validator Keystore şifrenizi oluşturulacak. Bunu da kaydedin. Gene aynı şekilde random oluşan şifrenizi dill/validator_keys/keystore_password.txt dosyasında görebilirsiniz. Tekrar herhangi bir tuşa basın. 
+- Kurulumu başlattıktan sonra "Please choose an option for your purpose [1, Launch a new dill node, 2, Add a validator to existing node]" seçimi gelecek karşınıza. Buraya 1 yazıp, entere basın. 
+- Gerekli dosyaları indirmeye başlayacak. "Step 1 Completed. Press any key to continue..." çıktsını aldıktan sonra herhangi bir tuşa basın ve devam edin.
+- Yeni bir mnemonic oluşturacaksınız 1'i seçin ya da mevcut Mnemonic'lerinizi kullanacaksınız 2'yi seçerek enter'a basın. Kelimelerinizi kaydetmeyi unutmayın. Ayrıca oluşan kelimelerini dill/validator_keys/mnemonic-xxxxxx.txt dizininde bu dosyada görebilirsiniz. (bu dosyayı yedekleyemeyi kesinlikle unutmayın. Eğer node'nuzu başka bir sunucuya taşımak isterseniz bu lazım olacak.)
+- Kelimeleriniz oluştuktan sonra random olarak Validator Keystore şifrenizi oluşturulacak. Bunu da kaydedin. Gene aynı şekilde random oluşan şifrenizi dill/validator_keys/keystore_password.txt dosyasında görebilirsiniz. Tekrar herhangi bir tuşa basın.
+- Full validator ve light validator kurulumunu için token stake miktarları değişiktir. Bunun için karşınıza şöyle bir seçenecek gelecek, "Please choose an option for deposit token amount [1, 3600, 2, 36000]" Siz ligth validator için seçildiyseniz 1, eğer full validator için seçildiyseniz 2 yazıp entere basın.
+- Sonra ki adımda "Please enter your withdrawal address:" seçeneği gelecek. Burada Dill Discord'unda ki faucette hangi metamask adresinize tokenleri talep ettiyseniz o adresinizi 2 kere girin.
 - "Step 2 Completed. Press any key to continue..." çıktısını alınca tekrar herhangi bir tuşa basın ve kuruluma devam edin.
 - En sonda "node running, congratulations" çıktısı validator_pubkeyinizi ve alacaksınız ve kurulum tamamlanacak.
 

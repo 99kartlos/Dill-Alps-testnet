@@ -64,29 +64,22 @@ Not: Node'unuz sync olduktan sonra staking işlemlerini yapmanız tavsiye edilir
 
 - Staking sürecini tamamladıktan sonra, validator public anahtarınızı kullanarak sayfada validator bilgilerinizi arayabilirsiniz. Görünmesi 0,5-1 saat sürebilir.
 
-![Ekran görüntüsü 2024-09-14 080214](https://github.com/user-attachments/assets/804a2b68-5eda-4620-8ffe-418c79ef1d9e)
+![Ekran görüntüsü 2024-09-14 080323](https://github.com/user-attachments/assets/1539f0ca-324c-4188-97ea-a279b50d28ab)
 
 
+## Önemli Komutlar
 
+- Eğer Dill dizininde değilseniz, bu komutla Dill dizinine geçebilirsiniz. (Komutları "dill" dizininde çalıştırmanız gerekiyor)
+```
+cd dill 
+```
 
+- Node'un çalışıp çalışmadığını kontrol etmek için
+```
+./health_check.sh -v
+```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- Node sync olup olmadığını kontrol etmek için. Eğer bunun gibi bir çıktı alıyorsanız node sync olmuş demektir. ({"head_slot":"173420","sync_distance":"0","is_syncing":false,"is_optimistic":false,"el_offline":false}}
+```
+curl -s localhost:3500/eth/v1/node/syncing
+```

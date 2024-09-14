@@ -48,12 +48,12 @@ Not: Node'unuz sync olduktan sonra staking işlemlerini yapmanız tavsiye edilir
 
 ![image](https://github.com/user-attachments/assets/3c24ea5d-c728-4ee7-87f3-b2a42abd5dd5)
 
-- Bu siteye deposit_data-xxxxx.json dosyanızı yükleyeceksiniz. Bu dosyayı sunucunuzun içinde ```/dill/validator_keys``` dizininden bulup alabilirsiniz.(WinSCP, Mobaxterm gibi uygulamarı kullanabilirsiniz.)
-- Deposit_data-xxxx.json dosyasını siteye yükledikten sonra MetaMask'a Bağlan'a tıklayın, yeterli test tokeniniz olduğundan emin olun (>3600 DILL)
+- Bu siteye ```deposit_data-xxxxx.json``` dosyanızı yükleyeceksiniz. Bu dosyayı sunucunuzun içinde ```/dill/validator_keys``` dizininden bulup alabilirsiniz.(WinSCP, Mobaxterm gibi uygulamarı kullanabilirsiniz.)
+- ```Deposit_data-xxxx.json``` dosyasını siteye yükledikten sonra MetaMask'a Bağlan'a tıklayın, yeterli test tokeniniz olduğundan emin olun (>3600 DILL)
 
  ![image](https://github.com/user-attachments/assets/f8238c5a-b216-476c-a5a3-18fc919211b6)
 
-- Cüzdanı bağladıktan sonra Continue'ya basarak devam edin. Ardından Confirm deposit'e basarak depositini gerçekleştirin.
+- Cüzdanı bağladıktan sonra Continue'ya basarak devam edin. Ardından ```Confirm Deposit```'e basarak depositini gerçekleştirin.
 
 ![Ekran görüntüsü 2024-09-14 075934](https://github.com/user-attachments/assets/8f9bcb6a-ddfd-41cf-b202-fc99e5bba489)
 

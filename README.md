@@ -5,15 +5,15 @@
 
 <b> Dill Alps testnet düğümünü (Node) çalıştırmak için minumum donanım gereksinimleri </b>
 
-# Light Validator Donanım Gereksinimleri
-| Donanım | Gereksinimleri | Donanım |
+# Validator Donanım Gereksinimleri
+| Donanım | Light Validator | Full Validator |
 | ------------- | ---------------- | ---------------- |
-Cpu | 2 Cores | fefe
-Architecture | x86-64 (x64, x86_64, AMD64, ve Intel 64)
-Memory | 2 GB
-Operating System | Ubuntu 22.04.2 LTS or higher versions (x86-64)
-Storage | 20 GB
-Network Bandwidth | 1MB/s 
+Cpu | 2 Cores | 4 Cores
+Architecture | x86-64 (x64, x86_64, AMD64, ve Intel 64) | x86-64 (x64, x86_64, AMD64, ve Intel 64)
+Memory | 2 GB | 8 GB
+Operating System | Ubuntu 22.04.2 LTS or higher versions (x86-64) | Ubuntu 22.04.2 LTS or higher versions (x86-64)
+Storage | 20 GB | 256 GB
+Network Bandwidth | 1MB/s | 64Mb/s
 
 # Full Validator Donanım Gereksinimleri
 | Donanım | Gereksinimleri |

@@ -51,7 +51,7 @@ curl -sO https://raw.githubusercontent.com/DillLabs/launch-dill-node/main/dill.s
 
 ## Staking
 
-1- Öncelikle, Alps kanalında ki faucet botundan token talep edin ($request cüzdanadresinz). Düğümünüzde (Node) oluşturduğunuzdan cüzdandan farklı bir cüzdan kullanın.
+1- Öncelikle, Alps kanalında ki faucet botundan token talep edin ($request cüzdanadresiniz). Düğümünüzde (Node) oluşturduğunuzdan cüzdandan farklı bir cüzdan kullanın.
 
 2- https://staking.dill.xyz/ adresini ziyaret edin.
 

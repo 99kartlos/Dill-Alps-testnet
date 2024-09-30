@@ -29,7 +29,7 @@ Explorer URL | https://andes.dill.xyz/
 ```ABNF
 curl -sO https://raw.githubusercontent.com/DillLabs/launch-dill-node/main/dill.sh  && chmod +x dill.sh && ./dill.sh
 ```
-2- Kurulumu başlattıktan sonra ```Please choose an option for your purpose [1, Launch a new dill node, 2, Add a validator to existing node]``` seçimi gelecek karşınıza. Buraya 1 yazıp, entere basın. 
+2- Kurulumu başlattıktan sonra ```Please choose an option for mnemonic source [1, From a new mnemonic, 2, Use existing mnemonic] [1]:``` seçimi gelecek karşınıza. Eğer yeni bir mnemonic ilr kurulum yapacaksanız  1 yazıp, var olan bir mnemonic ile kurulum yapacaksanız 2 yazıp entere basın. 
 
 3- Gerekli dosyaları indirmeye başlayacak. ```Step 1 Completed. Press any key to continue...``` çıktsını aldıktan sonra herhangi bir tuşa basın ve devam edin.
 

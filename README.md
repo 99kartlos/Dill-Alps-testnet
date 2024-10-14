@@ -82,7 +82,7 @@ curl -sO https://raw.githubusercontent.com/DillLabs/launch-dill-node/main/dill.s
   - Sunucunuza girin ve ```dill/2_add_validator.sh``` komutunu çalıştırın.
   - Ardıdan mnemonic'leri gireceksiniz. Yeni bir mnemonic oluşturmak için ```1```'i seçin (bunu güvenli bir şekilde kaydettiğinizden emin olun).
 Zaten bir mnemonic'iniz varsa ve kullanmak istiyorsanız ```2```'yi seçin.
-    ```ABNF
+    ```
     ********** Step 1: Generating Validator Keys **********
 
 Validator Keys are generated from a mnemonic

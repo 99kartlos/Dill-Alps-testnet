@@ -76,6 +76,26 @@ curl -sO https://raw.githubusercontent.com/DillLabs/launch-dill-node/main/dill.s
 ![Ekran görüntüsü 2024-09-14 080323](https://github.com/user-attachments/assets/1539f0ca-324c-4188-97ea-a279b50d28ab)
 
 
+# Mevcut Node'a Validator Ekleme
+
+- Eğer fazladan WL'niz varsa bunu mevcut Node'unuza yeni bir validator olarak ekleyebilirsiniz. Bunun için:
+  - Sunucunuza girin ve ```dill/2_add_validator.sh``` komutunu çalıştırın.
+  - Ardıdan mnemonic'leri gireceksiniz. Yeni bir mnemonic oluşturmak için ```1```'i seçin (bunu güvenli bir şekilde kaydettiğinizden emin olun).
+Zaten bir mnemonic'iniz varsa ve kullanmak istiyorsanız ```2```'yi seçin.
+    ```ABNF
+    ********** Step 1: Generating Validator Keys **********
+
+Validator Keys are generated from a mnemonic
+Please choose an option for mnemonic source [1, From a new mnemonic, 2, Use existing mnemonic] [1]:
+    ```
+ - Şimdi Yatırılacak token miktarını seçeceğiz ve withdraw adresimizi gireceğiz. Light Validator için (3600 DILL) ```1```. seçeneği Full Validator (36000 DILL) için ```2```. seçeneği seçin. Ardından Withdraw adresinizi girin enter deyip tekrar girin ve onaylayın.
+ - > [!!!]Şimdi önemli kısma geldik. Burada bize ```Index``` numarası soracak. Mevcut Node'uzu index:0 olarak kabul edeceksiniz. Bu yüzden ekleyeceğiniz validatorün index'i ```1``` olacak. (Bundan sonra ekleyeeğiniz validatörün indexi n+1 şeklinde gidecek. Yani 3. Validator için 2 olacak.).
+   > Sonuç olarak ```1``` diyoruz!!!
+   > Dikkat etmeniz gereken bir husus daha Her validatorun PubKeyi farklı olacak. Indexleri doğru girerseniz zaten farklı olacaktır. 
+ - Evet Validator ekleme basitçe bu şekilde. Stake aşamasına geçebilirsiniz.
+ - Mevcut Validatorlerinizi ```dill``` dizini içinde aşağıdaki komutu kullanarak görebilirsiniz:
+   ```./show_pubkey```
+
 ## Önemli Komutlar
 
 - Eğer Dill dizininde değilseniz, bu komutla Dill dizinine geçebilirsiniz. (Komutları "dill" dizininde çalıştırmanız gerekiyor)

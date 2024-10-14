@@ -95,7 +95,7 @@ Please choose an option for mnemonic source [1, From a new mnemonic, 2, Use exis
 > Dikkat etmeniz gereken bir husus daha Her validatorun PubKeyi farklı olacak. Indexleri doğru girerseniz zaten farklı olacaktır.
   
  - Evet Validator ekleme basitçe bu şekilde. Stake aşamasına geçebilirsiniz.
- - Mevcut Validatorlerinizi ```dill``` dizini içinde aşağıdaki komutu kullanarak görebilirsiniz:
+ - Mevcut Validatorlerinizi ```dill``` dizini içinde bu komutu kullanarak görebilirsiniz:
    ```./show_pubkey```
 
 ## Önemli Komutlar
